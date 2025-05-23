@@ -65,7 +65,7 @@ Langkah-langkah yang dilakukan:
 
 **Alasan:** Model sensitif terhadap skala data sehingga diperlukan normalisasi. Tidak dilakukan PCA karena dataset hanya memiliki delapan fitur sehingga tidak diperlukan reduksi dimensi.
 
-## Modeling
+## Model Development (Modelling)
 
 Tiga model digunakan:
 
