@@ -1,5 +1,5 @@
 # Laporan Proyek Machine Learning – Paulina Hambali 
-# Nama Proyek: Proyek Predictive Analytics: Diabetes Risk Prediction
+# Proyek Predictive Analytics: Diabetes Risk Prediction
 
 ## Domain Proyek
 
