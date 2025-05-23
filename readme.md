@@ -32,18 +32,6 @@ Referensi:
 
 Dataset yang digunakan adalah **Analysis Diabetes Dataset** yang berasal dari https://www.kaggle.com/datasets/whenamancodes/predict-diabities.
 
-### Exploratory Data Analysis
-
-1. **Rows in Dataset:** Membaca dan menampilkan jumlah baris dalam dataset.  
-2. **Total Rows and Columns & Description:** Menampilkan total baris dan kolom serta mendeskripsikan kolom dalam dataset.  
-3. **Data Type Check:** Menampilkan tipe data dalam dataset.  
-4. **Check Missing Values:** Memeriksa data kosong atau hilang.  
-5. **Descriptive Statistics:** Melakukan analisis deskriptif dataset.  
-6. **Check Target Class:** Memeriksa distribusi kolom target.  
-7. **Visualization: Distribution of Target Class:** Visualisasi dalam bentuk chart kolom Outcome (target).  
-8. **Visualization: Distribution of Numeric Features:** Visualisasi dalam bentuk histogram kolom numerik.  
-9. **Visualization: Correlation Between Feature and Target & Outlier Detection (numeric features):** Visualisasi korelasi antara Outcome (target) dengan kolom numerik dalam bentuk boxplot.
-    
 ### Fitur pada dataset:
 
 - Pregnancies: Jumlah kehamilan  
@@ -56,6 +44,18 @@ Dataset yang digunakan adalah **Analysis Diabetes Dataset** yang berasal dari ht
 - Age: Umur  
 - Outcome: Label target (1 = Diabetes, 0 = Tidak Diabetes) — target  
 Beberapa fitur dalam dataset dengan penjelasan (kegunaan) fitur.
+
+### Exploratory Data Analysis
+
+1. **Rows in Dataset:** Membaca dan menampilkan jumlah baris dalam dataset.  
+2. **Total Rows and Columns & Description:** Menampilkan total baris dan kolom serta mendeskripsikan kolom dalam dataset.  
+3. **Data Type Check:** Menampilkan tipe data dalam dataset.  
+4. **Check Missing Values:** Memeriksa data kosong atau hilang.  
+5. **Descriptive Statistics:** Melakukan analisis deskriptif dataset.  
+6. **Check Target Class:** Memeriksa distribusi kolom target.  
+7. **Visualization: Distribution of Target Class:** Visualisasi dalam bentuk chart kolom Outcome (target).  
+8. **Visualization: Distribution of Numeric Features:** Visualisasi dalam bentuk histogram kolom numerik.  
+9. **Visualization: Correlation Between Feature and Target & Outlier Detection (numeric features):** Visualisasi korelasi antara Outcome (target) dengan kolom numerik dalam bentuk boxplot.
 
 ## Data Preparation
 
