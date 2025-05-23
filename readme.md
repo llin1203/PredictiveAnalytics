@@ -104,6 +104,6 @@ Metrik yang digunakan:
 | Random Forest | 0.831    | 0.723         | 0.723      | 0.723        |
 | Boosting      | 0.812    | 0.688         | 0.702      | 0.695        |
 
-Dari hasil laporan di atas, dapat disimpulkan bahwa model **Random Forest** memiliki performa terbaik dari dua model lainnya, dengan akurasi dan F1-Score tertinggi, yakni 0.723 atau 72% dalam memprediksi potensi diabetes.
+Dari hasil laporan di atas, dapat disimpulkan bahwa model **Random Forest** memiliki performa terbaik dari dua model lainnya, dengan F1-Score tertinggi, yakni 0.723 atau 72% dan akurasi tertinggi, yakni 0.831 atau 83% sehingga dinilai akurat dalam memprediksi potensi diabetes.
 
 ---
