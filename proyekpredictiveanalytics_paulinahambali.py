@@ -14,8 +14,7 @@ Original file is located at
 ## Import Library
 """
 
-# Commented out IPython magic to ensure Python compatibility.
-# Data handling & analysis
+# Data handling-analysis
 import pandas as pd
 import numpy as np
 
@@ -25,16 +24,12 @@ import seaborn as sns
 
 # Machine learning models dan evaluasi
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import  OneHotEncoder
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, roc_auc_score, roc_curve
+from sklearn.metrics import accuracy_score, classification_report
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-
-# Supaya grafik tampil di notebook
-# %matplotlib inline
 
 #kagglehub
 import kagglehub
