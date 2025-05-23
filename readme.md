@@ -96,7 +96,7 @@ Metrik yang digunakan:
 - **Accuracy:** (TP + TN) / Total  
 - **Precision:** TP / (TP + FP)  
 - **Recall:** TP / (TP + FN)  
-- **F1-score:** Rata-rata harmonis antara precision dan recall  
+- **F1-score:** Rata-rata antara precision dan recall  
 
 | Model         | Accuracy | Precision (1) | Recall (1) | F1-score (1) |
 |---------------|----------|---------------|------------|--------------|
@@ -104,6 +104,6 @@ Metrik yang digunakan:
 | Random Forest | 0.831    | 0.723         | 0.723      | 0.723        |
 | Boosting      | 0.812    | 0.688         | 0.702      | 0.695        |
 
-Dari hasil laporan di atas, dapat disimpulkan bahwa model **Random Forest** memiliki performa terbaik dari dua model lainnya, dengan akurasi dan F1-Score tertinggi, yakni 0.723 atau 72% dalam mendeteksi potensi diabetes.
+Dari hasil laporan di atas, dapat disimpulkan bahwa model **Random Forest** memiliki performa terbaik dari dua model lainnya, dengan akurasi dan F1-Score tertinggi, yakni 0.723 atau 72% dalam memprediksi potensi diabetes.
 
 ---
