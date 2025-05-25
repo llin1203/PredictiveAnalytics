@@ -81,14 +81,16 @@ Setelah model dilatih menggunakan data training, langkah selanjutnya adalah mela
 - models.loc['test_acc', 'RandomForest'] = accuracy_score(y_test, rf.predict(X_test)) melakukan prediksi pada test data dan mencatat akurasinya.
 - models.loc['test_acc', 'Boosting'] = accuracy_score(y_test, gb.predict(X_test)) melakukan prediksi pada trest data dan mencatat akurasinya.
 
-Tiga model digunakan:
+Penjelasan tiga model digunakan:
 
-1. **K-Nearest Neighbors (KNN):**  
+1. **K-Nearest Neighbors (KNN):**
+Model ini bekerja dengan cara melihat data baru yang akan diprediksi, lalu mencari “tetangga” atau data terdekat dari data tersebut       sebanyak k (di sini 10 tetangga). Setelah itu, KNN menentukan kelas data baru berdasarkan mayoritas kelas dari tetangga-tetangga          terdekat tersebut. Jadi, kalau sebagian besar tetangga berlabel “diabetes”, maka data baru juga akan diprediksi sebagai “diabetes”.
    - `n_neighbors=10`  
    - **Kelebihan:** Model sederhana dan cepat, cocok untuk dataset dengan fitur sedikit.  
    - **Kekurangan:** Performa menurun pada dataset dengan banyak fitur (curse of dimensionality).
 
-2. **Random Forest:**  
+3. **Random Forest:**
+Model ini terdiri dari kumpulan banyak pohon keputusan (decision trees). Setiap pohon akan dilatih dengan data yang berbeda secara acak, dan akan  membuat prediksi sendiri-sendiri. Setelah semua pohon membuat prediksi akan diambil  suara terbanyak (mayoritas) dari pohon-pohon tersebut sebagai hasil akhir. 
    - `random_state=42`  
    - **Kelebihan:**  
      - Mampu menangani data dengan fitur yang banyak dan kompleks.  
@@ -98,7 +100,8 @@ Tiga model digunakan:
      - Lebih sulit diinterpretasi dibandingkan model sederhana.  
      - Membutuhkan lebih banyak sumber daya komputasi.
 
-3. **Gradient Boosting Classifier:**  
+5. **Gradient Boosting Classifier:**
+Model ini membangun secara bertahap dan bertingkat. Model pertama dibuat untuk memprediksi data, kemudian model selanjutkan akan dibuat untuk memperbaiki kesalahan dari model sebelumnya. Setiap model baru akan fokus dalam menangani data yang sudah diprediksi sebelumnya. Proses ini dilakukan berulang kali hingga model cukup bagus dalam memprediksi.
    - `random_state=42`  
    - **Kelebihan:** Performa tinggi dalam prediksi.  
    - **Kekurangan:** Waktu training lebih lama dibanding model lain.
