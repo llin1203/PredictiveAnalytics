@@ -124,8 +124,7 @@ Lalu, prediksi terhadap bukan pengidap diabetes (kelas 0) juga sangat baik, deng
 
 Berikut kesimpulan keseluruhan proyek prediksi potensi diabetes dengan memperhatikan business understanding yang telah dijabarkan sebelumnya. 
 
-**Jawaban Pertanyaan 1**
-Proyek ini dapat memprediksi potensi diabetes dengan dibangun menggunakan dataset yang didalamnya terdapat beberapa fitur yang dapat digunakan untuk memprediksi apakah seseorang mengidap penyakit diabetes atau tidak, yakni  
+**Jawaban Pertanyaan 1:** Proyek ini dapat memprediksi potensi diabetes dengan dibangun menggunakan dataset yang didalamnya terdapat beberapa fitur yang dapat digunakan untuk memprediksi apakah seseorang mengidap penyakit diabetes atau tidak, yakni  
 - Pregnancies: Jumlah kehamilan  
 - Glucose: Kadar glukosa dalam darah  
 - BloodPressure: Tekanan darah diastolik  
@@ -136,11 +135,10 @@ Proyek ini dapat memprediksi potensi diabetes dengan dibangun menggunakan datase
 - Age: Umur  
 - Outcome: Label target (1 = Diabetes, 0 = Tidak Diabetes)
   
-**Jawaban Pertanyaan 2**
-Tiga model, dan disimpulkan model yang terbaik untuk dipakai dalam memprediksi, yakni Random Forest karena memiliki akurasi tertinggi dalam memprediksi potensi diabetes maupun bukan pengidap diabetes. 
+**Jawaban Pertanyaan 2:** Menggunakan tiga model, dan disimpulkan model yang terbaik untuk dipakai dalam memprediksi, yakni Random Forest karena memiliki akurasi tertinggi dalam memprediksi potensi diabetes maupun bukan pengidap diabetes. 
 
-**Goals** telah tercapai, yakni mampu untuk membangun model klasifikasi machine learning dalam memprediksi potensi diabetes dan telah membandingkan performa model KNN, Random Forest, dan GradientBoosting berdasarkan classification report. 
+**Goals:** telah tercapai, yakni mampu untuk membangun model klasifikasi machine learning dalam memprediksi potensi diabetes dan telah membandingkan performa model KNN, Random Forest, dan GradientBoosting berdasarkan classification report. 
 
-**Problem solution** telah diterapkan dan berhasil dalam membangun model serta memprediksi potensi diabetes dengan menerapkan tiga model KNN, Random Forest, dan Gradient Boosting. Serta menerapkan metrik evaluasi untuk melakukan evaluasi terhadap model yang digunakan. 
+**Problem solution:** telah diterapkan dan berhasil dalam membangun model serta memprediksi potensi diabetes dengan menerapkan tiga model KNN, Random Forest, dan Gradient Boosting. Serta menerapkan metrik evaluasi untuk melakukan evaluasi terhadap model yang digunakan. 
 
 ---
