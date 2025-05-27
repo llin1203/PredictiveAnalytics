@@ -61,7 +61,7 @@ Langkah-langkah yang dilakukan:
 
 1. **Feature and Target:** Mengatur fitur dan target berdasarkan hasil EDA.  
 2. **Train-Test Split:** Membagi data menjadi 80% training dan 20% testing.  
-3. **Feature Scaling:** Menggunakan MinMaxScaler agar semua fitur berada dalam skala 0–1.  
+3. **Feature Scaling:** Menggunakan StandardScaler agar fitur agar memiliki distribusi dengan mean = 0 dan standard deviation = 1, yang digunakan untuk model yang sensitif terhadap skala data, yakni KNN, Random Forest dan Gradient Boosting.
 
 **Alasan:** Model sensitif terhadap skala data sehingga diperlukan normalisasi. Tidak dilakukan PCA karena dataset hanya memiliki delapan fitur sehingga tidak diperlukan reduksi dimensi.
 
